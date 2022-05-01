@@ -6,10 +6,10 @@
 "What kind of style are you referring to?" you might be asking. Well, here are some examples you might recognize!
 
 ### Niconico platform comments
-![Niconico](https://i.ibb.co/jkPrDb9/niconico.gif)
+![Niconico](assets/niconico.gif)
 
 ### Osu! replay comments
-![example1](https://i.ibb.co/4V7Zcwf/osu.gif)
+![example1](assets/osu.gif)
 
 # Installation
 ## StreamElements
