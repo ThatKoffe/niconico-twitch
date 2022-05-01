@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family={{FontName}}');
+
+:root {
+  --text-color: {{FontColor}};
+  --prev-color: none;
+}
+
+/*Basic scrolling animation.  If the text lingers on screen increase {left:120%;} and {right: 120%;}*/
+@keyframes LRMove {
+  0% {
+    left: 120%;
+  }
+  100% {
+    left: -550%;
+    display: none;
+  }
+}
+
+@keyframes RLMove {
+  0% {
+    right: 0%;
+    opacity: 0%;
+  }
+  100% {
+    right: 120%;
+    opacity: 0%;
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  text-shadow: {{TextShadow}};
+  font-family: {{FontName}};
+  font-weight: {{FontWeight}};
+  font-size: {{FontSize}}vh;
+  line-height: 1.5em;
+  background-color: var(--prev-color);
+  color: var(--text-color);
+}
+
+.main-container {
+  display: table;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px;
+  width: 100%;
+  table-layout: fixed;
+  background-color: var(--prev-color);
+  color: var(--text-color);
+}
+
+.message-row {
+  position: absolute;
+  flex: 0 0 auto;
+  width: 100%;
+  bottom: 50px;
+  vertical-align: baseline;
+  margin-bottom: 50px;
+}
+
+.message {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  word-wrap: word-break;
+  width: 100%;
+  opacity: {{Opacity}};
+  right: 0px;
+}
+
+.emote {
+  height: {{EmoteSize}}vh;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}

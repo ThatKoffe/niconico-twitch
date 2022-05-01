@@ -1,8 +1,7 @@
-![NNxSL_BANNER](https://i.imgur.com/syHt4D3.png)
+![NNxTW_BANNER](https://i.ibb.co/WHKcxm8/Twitchxniconico.png)
 
-# niconico-streamlabs
-NicoNico themed streamlabs chat - Simply set it up.
-
+# niconico-twitch
+Nico Nico Douga style chat overlay - Simply set it up.
 
 ## Configurations
 
