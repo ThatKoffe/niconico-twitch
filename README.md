@@ -1,5 +1,6 @@
-![NNxTW_BANNER](https://i.ibb.co/Zzh9NyT/Twitchxniconico.png)
 
+![NNxTW_BANNER](https://i.ibb.co/Zzh9NyT/Twitchxniconico.png)
+![license](https://img.shields.io/github/license/iiiklox/niconico-twitch?style=flat-square) ![commits](https://img.shields.io/github/last-commit/iiiklox/niconico-twitch?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/iiiklox/niconico-twitch?style=flat-square)
 # Niconico Twitch
 [Niconico](https://www.nicovideo.jp/) Douga style chat overlay - Simply set it up.
 
