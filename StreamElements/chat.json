@@ -77,19 +77,19 @@
     },
     "widgetName": {
       "type": "hidden",
-      "value": "Niconico style chat"
+      "value": "Niconico themed Twitch chat"
     },
     "widgetAuthor": {
       "type": "hidden",
-      "value": "Seer"
+      "value": "iiiklox & Serakoi"
     },
     "widgetVersion": {
       "type": "hidden",
-      "value": "0.1"
+      "value": "0.0.2"
     },
     "widgetUpdateUrl": {
       "type": "hidden",
-      "value": "https://github.com/Serakoi/niconico-streamlabs/blob/main/"
+      "value": "https://github.com/iiiklox/niconico-twitch/tree/main/StreamElements/"
     }
   }
   
