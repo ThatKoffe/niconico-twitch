@@ -1,4 +1,4 @@
-![NNxTW_BANNER](https://i.ibb.co/WHKcxm8/Twitchxniconico.png)
+![NNxTW_BANNER](https://i.ibb.co/Zzh9NyT/Twitchxniconico.png)
 
 # niconico-twitch
 Nico Nico Douga style chat overlay - Simply set it up.
