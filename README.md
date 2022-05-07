@@ -19,10 +19,10 @@
 1. On your StreamElements overlay (if you don't already have an overlay, create one on [StreamElements' overlay dashboard](https://streamelements.com/dashboard/overlays)), add a new custom widget by selecting "+" then `STATIC/CUSTOM` then `Custom widget`.
 2. On your left side panel, select your widget → `Position, size and style` → Width and Height. Change your widget size to be the full resolution of your overlay. For example, if your overlay was 1080p, then your widget size should be 1920px by 1080px.
 3. Center your widget by clicking on `CENTER WIDGET`.
-4. On your widget, select `Settings`.
-5. navigate to the StreamElements folder on our repository and paste each file content to the appropiate field on StreamElements. [`layout.html`](/StreamElements/layout.html) → `HTML`, [`chat.css`](/StreamElements/chat.css) → `CSS`, [`chat.js`](/StreamElements/chat.js) → `JS`, [`chat.json`](/StreamElements/chat.json) → `FIELDS`. Do not mess with the `DATA` field.
+4. On your widget, select `Settings` then `OPEN EDITOR`.
+5. navigate to the StreamElements folder on our repository and paste each file content to the appropiate field on StreamElements. [`layout.html`](/StreamElements/layout.html) → `HTML`, [`chat.css`](/StreamElements/chat.css) → `CSS`, [`chat.js`](/StreamElements/chat.js) → `JS`, [`chat.json`](/StreamElements/chat.json) → `FIELDS`. Do not mess with the `DATA` field, it's just your current widget settings.
 
-## Streamlabs - ⚠ WIP ⚠
+## Streamlabs - ⚠ WIP ⚠ - Not tested.
 1. Navigate to the `Streamlabs` folder on our repository and copy each of the files.
 2. Head into Streamlabs' [chatbox configuration dashboard](https://streamlabs.com/dashboard#/chatbox)
 3. Navigate down to `Enable Custom HTML/CSS` and select `Enabled`.
