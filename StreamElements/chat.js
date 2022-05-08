@@ -1,4 +1,3 @@
-
 // Setting the default value of the maximum variable to 250.
 let cap = 250;
 let ban = "";
@@ -28,7 +27,7 @@ window.addEventListener("onEventReceived", function (obj) {
 
   // seperate unallowed users by comma
   let banList = ban.split(", ");
-  console.log(banList);
+
   // If the user exists in the list of unallowed users, return.
   if (banList.includes(usr)) return;
 
@@ -46,19 +45,23 @@ window.addEventListener("onEventReceived", function (obj) {
   container.append(div);
   const el = document.querySelector(`[data-id="${mid}"]`);
 
-  if (bod.length > cap) {el.remove();}
+  (bod.length > cap) ? el.remove() : null;
 
   // Speed calculation
   let speed = 25 - ((bod.length - 10) / 290) * 10 + "s";
 
+  // Random Height
+  margin = Math.floor(
+    Math.random() * (window.innerHeight - el.offsetHeight / 1.3 - 0)
+  );
+
   // Apply animation
   el.style.animation = `LRMove ${speed} linear, RLMove ${speed} linear ${speed} forwards`;
   el.style.width = window.innerWidth;
-  el.style.bottom = `${Math.floor(Math.random() * window.innerHeight)}px`;
+  el.style.bottom = `${margin}px`;
 
   // Apply static color if enabled, otherwise apply user chat color
-  (sts) ? el.style.color = clr : el.style.color = col;
-  
+  sts ? (el.style.color = clr) : (el.style.color = col);
 });
 
 /**
@@ -71,7 +74,10 @@ window.addEventListener("onEventReceived", function (obj) {
 function attachEmote(message, emotes) {
   message = escapeHtml(message);
   for (let emote of emotes) {
-      message = message.replace(emote["name"], `<img class="emote" src="${emote["urls"]["4"]}" />`);
+    message = message.replace(
+      emote["name"],
+      `<img class="emote" src="${emote["urls"]["4"]}" />`
+    );
   }
   return message;
 }
@@ -81,7 +87,7 @@ function attachEmote(message, emotes) {
  * @param unsafe - The string to be escaped.
  * @returns the string with the HTML characters escaped.
  */
- function escapeHtml(unsafe) {
+function escapeHtml(unsafe) {
   return unsafe
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -90,4 +96,4 @@ function attachEmote(message, emotes) {
     .replace(/'/g, "&#039;");
 }
 
-// 
+//

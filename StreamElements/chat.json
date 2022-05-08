@@ -17,6 +17,7 @@
     "HideCommands": {
       "type": "checkbox",
       "label": "Hide command messages starting with (!)",
+      "value": true,
       "group": "Chat"
     },
 
