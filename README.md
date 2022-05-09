@@ -91,11 +91,11 @@ Just make sure your issue had not been discussed and solved before first and lab
 ## ![](./assets/emotes/twitch/PogBones.png) Pull requests
 Pull requests are more than welcome, they are encourged, even! Feel free to try and breathe your creativity into this project!
 
-# Emotes
+## Emotes
 [`/assets/emotes/omori/`](./assets/emotes/omori/) From [Omori](https://www.omori-game.com/)
 
 [`/assets/emotes/twitch/`](./assets/emotes/twitch/) From [Twitch](https://www.twitch.tv/)
 
-# Disclaimer
+## Disclaimer
 
-## This project is not affiliated with Twitch, Niconico, Streamlabs, StreamElements, Github or any other company. No data is being collected by **us** or **from our code**. We do not earn any profit from this project and this is solely being maintained as a hobby project.
+### This project is not affiliated with Twitch, Niconico, Streamlabs, StreamElements, Github or any other company. No data is being collected by **us** or **from our code**. We do not earn any profit from this project and this is solely being maintained as a hobby project.
