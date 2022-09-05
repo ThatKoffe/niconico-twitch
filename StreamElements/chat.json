@@ -1,0 +1,102 @@
+{
+    "CharLimit": {
+      "type": "number",
+      "label": "Message characters limit",
+      "value": 250,
+      "min": 1,
+      "max": 250,
+      "step": 1,
+      "group": "Chat"
+    },
+    "HiddenAccounts": {
+      "type": "text",
+      "label": "Users to hide messages from. Great for bots. (Seperated by commas)",
+      "value": "StreamElements, Nightbot, Moobot, Cloudbot",
+      "group": "Chat"
+    },
+    "HideCommands": {
+      "type": "checkbox",
+      "label": "Hide command messages starting with (!)",
+      "value": true,
+      "group": "Chat"
+    },
+
+    "FontName": {
+      "type": "text",
+      "label": "Font name",
+      "value": "Roboto",
+      "group": "Typography"
+    },
+    "FontSize": {
+      "type": "number",
+      "label": "Font size (relative to view height)",
+      "value": 7,
+      "group": "Typography"
+    },
+    "Opacity": {
+      "type": "number",
+      "label": "Message opacity",
+      "value": 0.9,
+      "group": "Typography"
+    },
+    "FontWeight": {
+      "label": "Font Weight",
+      "type": "dropdown",
+      "value": "700",
+      "options": {
+        "100": "Thin (100)",
+        "300": "Light (300)",
+        "400": "Regular (400)",
+        "500": "Medium (500)",
+        "700": "Bold (700)",
+        "900": "Black (900)"
+      },
+      "group": "Typography"
+    },
+    "StaticColor": {
+      "type": "checkbox",
+      "label": "Enable static color",
+      "group": "Typography"
+    },
+    "FontColor": {
+      "type": "colorpicker",
+      "label": "Static font color, \"static color\" must be enabled for this to work.",
+      "value": "rgba(255,255,255,1)",
+      "group": "Typography"
+    },
+    "ColorCommands": {
+      "type": "checkbox",
+      "label": "Let users choose their own message color by #color commands.",
+      "value": true,
+      "group": "Typography"
+    },
+    "TextShadow": {
+      "type": "text",
+      "label": "Text shadow",
+      "value": "rgb(0, 0, 0) 1px 0px 0px",
+      "group": "Typography"
+    },
+    "EmoteSize": {
+      "type": "number",
+      "label": "Emote size (relative to view height)",
+      "value": 8,
+      "group": "Typography"
+    },
+    "widgetName": {
+      "type": "hidden",
+      "value": "Niconico themed Twitch chat"
+    },
+    "widgetAuthor": {
+      "type": "hidden",
+      "value": "iiiklox & Serakoi"
+    },
+    "widgetVersion": {
+      "type": "hidden",
+      "value": "0.0.2"
+    },
+    "widgetUpdateUrl": {
+      "type": "hidden",
+      "value": "https://github.com/iiiklox/niconico-twitch/tree/main/StreamElements/"
+    }
+  }
+  
